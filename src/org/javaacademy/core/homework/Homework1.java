@@ -55,9 +55,9 @@ public class Homework1 {
         if (
                 (isWheelsWorks) && !hasErrors && isEngineWork && (fuel >= 10)
         )  {
-            System.out.println("Машина едет");
+            System.out.println("Машина eдет");
         } else {
-            System.out.println("Машина не едет");
+            System.out.println("Машина нe едет");
         }
     }
 
@@ -67,11 +67,11 @@ public class Homework1 {
         //получить индекс (число) второй буквы 'o' в строке. ПОЛУЧЕНИЕ ИНДЕКСА ЧЕРЕЗ ФУНКЦИЮ!
         //Распечатать полученный индекс
         String simply = "this is simply. This is my favorite song.";
-        String simplyReplace = simply.replace("this is", "those are"); //Замена this is на those are
-        System.out.println(simplyReplace); //проверка
-        System.out.println(simply.indexOf("o"));
-        System.out.println(simply.indexOf("o",31));
+        String simplyReplace = simply.replaceFirst("this is", "those are"); //Замена this is на those are
+        int firstIndex = simplyReplace.indexOf('o');
+        int secondIndex = simplyReplace.indexOf('o', firstIndex + 1);
+        System.out.println("Индекс второй буквы о :" + secondIndex);
 
-    }
+
     }
 }
