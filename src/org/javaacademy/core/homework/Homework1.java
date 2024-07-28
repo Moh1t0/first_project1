@@ -55,9 +55,9 @@ public class Homework1 {
         if (
                 (isWheelsWorks) && !hasErrors && isEngineWork && (fuel >= 10)
         )  {
-            System.out.println("Машина едет");
+            System.out.println("Машина eдет");
         } else {
-            System.out.println("Машина не едет");
+            System.out.println("Машина нe едет");
         }
     }
 

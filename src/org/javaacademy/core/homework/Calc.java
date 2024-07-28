@@ -29,7 +29,7 @@ public class Calc {
             } else if (symbol.equals("/")) {
                 System.out.println(number1 / number2);
             } else {
-                System.out.println("Ошибка");
+                System.out.println("0шибка");
             }
 
             scanner.close();
