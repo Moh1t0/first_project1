@@ -1,4 +1,4 @@
-package org.javaacademy.core.homework;
+package org.javaacademy.core.homework.homework1;
 
 public class Homework1 {
     public static void main(String[] args) {
@@ -74,6 +74,5 @@ public class Homework1 {
 
 
     }
-
 }
 
