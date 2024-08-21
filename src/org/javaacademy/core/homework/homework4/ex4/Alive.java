@@ -9,7 +9,7 @@ public abstract class Alive {
     }
 
     public Alive(boolean isAlive, double weight) {
-        this.isAlive = true;
+        this.isAlive = isAlive;
         this.weight = weight;
     }
 

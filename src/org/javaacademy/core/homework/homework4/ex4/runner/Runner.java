@@ -22,13 +22,18 @@ public class Runner {
         Rabbit rabbit = new Rabbit(true, 2);
         Elephant elephant = new Elephant(true, 2000);
 
+        wolf.attack(rabbit);
+        tiger.attack(wolf);
+        System.out.println(tiger.getWeight());
+
+        tiger.attack(elephant);
+        System.out.println(tiger.isAlive());
+        elephant.run();
+
         try {
-            rabbit.run();
-            rabbit.die();
             rabbit.run();
         } catch (AnimalException e) {
             System.out.println(e.getMessage());
         }
-        wolf.attack(rabbit);
     }
 }
