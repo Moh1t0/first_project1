@@ -26,6 +26,7 @@ public class Predator extends Alive {
                 this.die();
             } else {
                 this.setWeight(this.getWeight() + (alive.getWeight() / 3));
+                alive.die();
             }
         }
     }
