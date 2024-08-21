@@ -26,12 +26,12 @@ public class Iphone extends Phone {
                 '}';
     }
 
-    public void cpusInfo(){
+    public void cpusInfo() {
         System.out.println("Информация о процессорах: ");
         System.out.println("Первый процессор: " + getCpu1());
         System.out.println("Второй процессор: " + getCpu());
-        }
     }
+}
 
 
 
